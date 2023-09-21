@@ -1,84 +1,85 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{wang2023personalized,
+      title={Towards Personalized Federated Learning via Heterogeneous Model Reassembly}, 
+      author={Jiaqi Wang and Xingyi Yang and Suhan Cui and Liwei Che and Lingjuan Lyu and Dongkuan Xu and Fenglong Ma},
+      year={2023},
+      eprint={2308.08643},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+
+@Article{s23156986,
+AUTHOR = {Che, Liwei and Wang, Jiaqi and Zhou, Yao and Ma, Fenglong},
+TITLE = {Multimodal Federated Learning: A Survey},
+JOURNAL = {Sensors},
+VOLUME = {23},
+YEAR = {2023},
+NUMBER = {15},
+ARTICLE-NUMBER = {6986},
+URL = {https://www.mdpi.com/1424-8220/23/15/6986},
+PubMedID = {37571768},
+ISSN = {1424-8220},
+ABSTRACT = {Federated learning (FL), which provides a collaborative training scheme for distributed data sources with privacy concerns, has become a burgeoning and attractive research area. Most existing FL studies focus on taking unimodal data, such as image and text, as the model input and resolving the heterogeneity challenge, i.e., the challenge of non-identical distribution (non-IID) caused by a data distribution imbalance related to data labels and data amount. In real-world applications, data are usually described by multiple modalities. However, to the best of our knowledge, only a handful of studies have been conducted to improve system performance utilizing multimodal data. In this survey paper, we identify the significance of this emerging research topic of multimodal federated learning (MFL) and present a literature review on the state-of-art MFL methods. Furthermore, we categorize multimodal federated learning into congruent and incongruent multimodal federated learning based on whether all clients possess the same modal combinations. We investigate the feasible application tasks and related benchmarks for MFL. Lastly, we summarize the promising directions and fundamental challenges in this field for future research.},
+DOI = {10.3390/s23156986}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+
+
+
+
+
+@ARTICLE{10198520,
+  author={Mawuli, Cobbinah B. and Che, Liwei and Kumar, Jay and Din, Salah Ud and Qin, Zhili and Yang, Qinli and Shao, Junming},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 
+  title={FedStream: Prototype-Based Federated Learning on Distributed Concept-Drifting Data Streams}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TSMC.2023.3293462}}
+
+
+@article{COBBINAH2022102585,
+title = {Reducing variations in multi-center Alzheimer’s disease classification with convolutional adversarial autoencoder},
+journal = {Medical Image Analysis},
+volume = {82},
+pages = {102585},
+year = {2022},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2022.102585},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841522002237},
+author = {Bernard M. Cobbinah and Christian Sorg and Qinli Yang and Arvid Ternblom and Changgang Zheng and Wei Han and Liwei Che and Junming Shao},
+keywords = {Alzheimer’s disease classification, Multi-center MRIs, Convolutional adversarial autoencoder, Convolutional attention network},
+abstract = {Based on brain magnetic resonance imaging (MRI), multiple variations ranging from MRI scanners to center-specific parameter settings, imaging protocols, and brain region-of-interest (ROI) definitions pose a big challenge for multi-center Alzheimer’s disease characterization and classification. Existing approaches to reduce such variations require intricate multi-step, often manual preprocessing pipelines, including skull stripping, segmentation, registration, cortical reconstruction, and ROI outlining. Such procedures are time-consuming, and more importantly, tend to be user biased. Contrasting costly and biased preprocessing pipelines, the question arises whether we can design a deep learning model to automatically reduce these variations from multiple centers for Alzheimer’s disease classification? In this study, we used T1 and T2-weighted structural MRI from Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset based on three groups with 375 subjects, respectively: patients with Alzheimer’s disease (AD) dementia, with mild cognitive impairment (MCI), and healthy controls (HC); to test our approach, we defined AD classification as classifying an individual’s structural image to one of the three group labels. We first introduced a convolutional adversarial autoencoder (CAAE) to reduce the variations existing in multi-center raw MRI scans by automatically registering them into a common aligned space. Afterward, a convolutional residual soft attention network (CRAT) was further proposed for AD classification. Canonical classification procedures demonstrated that our model achieved classification accuracies of 91.8%, 90.05%, and 88.10% for the 2-way classification tasks using the RAW aligned MRI scans, including AD vs. HC, AD vs. MCI, and MCI vs. HC, respectively. Thus, our automated approach achieves comparable or even better classification performance by comparing it with many baselines with dedicated conventional preprocessing pipelines. Furthermore, the uncovered brain hotpots, i.e., hippocampus, amygdala, and temporal pole, are consistent with previous studies.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@INPROCEEDINGS{9671374,
+  author={Che, Liwei and Long, Zewei and Wang, Jiaqi and Wang, Yaqing and Xiao, Houping and Ma, Fenglong},
+  booktitle={2021 IEEE International Conference on Big Data (Big Data)}, 
+  title={FedTriNet: A Pseudo Labeling Method with Three Players for Federated Semi-supervised Learning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={715-724},
+  doi={10.1109/BigData52589.2021.9671374}}
+
+
+@misc{long2021fedsiam,
+      title={FedSiam: Towards Adaptive Federated Semi-Supervised Learning}, 
+      author={Zewei Long and Liwei Che and Yaqing Wang and Muchao Ye and Junyu Luo and Jinze Wu and Houping Xiao and Fenglong Ma},
+      year={2021},
+      eprint={2012.03292},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{long2020fedsemi,
+  title={Fedsemi: An adaptive federated semi-supervised learning framework},
+  author={Long, Zewei and Che, Liwei and Wang, Yaqing and Ye, Muchao and Luo, Junyu and Wu, Jinze and Xiao, Houping and Ma, Fenglong},
+  journal={arXiv preprint arXiv:2012.03292},
+  year={2020}
 }
