@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: [/](https://michelingweo.github.io/about/)
+permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
