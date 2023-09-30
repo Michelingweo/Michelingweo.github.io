@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about
 subtitle: <a href='https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en'>\[Google Scholar\]</a> <a href='https://www.linkedin.com/in/liweiche/'>\[LinkedIn\]</a> <a href='levi.liweiche@gmail.com'>\[Email\]</a>
 
 profile:
