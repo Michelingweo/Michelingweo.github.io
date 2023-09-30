@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by <a href='https://nips.cc/'>NIPS'2023</a> ! :smile:
+One paper accepted by <a href='https://nips.cc/'>NIPS'2023</a> ! 
