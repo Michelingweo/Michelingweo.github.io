@@ -6,7 +6,7 @@ subtitle: <a href='https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en'
 
 profile:
   align: right
-  image: /assets/img/liwei.jpg
+  image: liwei.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>CBIM</p>
