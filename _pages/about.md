@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en'>Google Scholar</a>. <a href='[https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en](https://www.linkedin.com/in/liweiche/)'>LinkedIn</a> <a href='levi.liweiche@gmail.com'>Email</a>
+subtitle: <a href='https://scholar.google.com/citations?user=wrQ-S_IAAAAJ&hl=en'>\[Google Scholar\]</a> <a href='https://www.linkedin.com/in/liweiche/'>\[LinkedIn\]</a> <a href='levi.liweiche@gmail.com'>\[Email\]</a>
 
 profile:
   align: right
-  image: liwei.jpg
+  image: /assets/img/liwei.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>CBIM</p>
